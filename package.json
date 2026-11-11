@@ -1,0 +1,22 @@
+{
+  "name": "qms-simple-dapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.5.0",
+    "@reown/appkit": "1.8.24",
+    "@reown/appkit-adapter-ethers": "1.8.24",
+    "ethers": "6.17.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "solc": "^0.8.28",
+    "vite": "6.4.1"
+  }
+}
